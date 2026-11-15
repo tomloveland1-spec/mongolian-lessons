@@ -1,0 +1,54 @@
+<!doctype html><html lang="mn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lesson 1: The alphabet</title><style>
+:root { --bg:#fbf7ef; --ink:#1f2a37; --muted:#6b7280; --accent:#b4232a; --card:#fff; --line:#e5dccb; }
+* { box-sizing:border-box; }
+html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font-family:"Noto Sans", "Helvetica Neue", Arial, sans-serif; }
+.slide { display:none; height:100vh; padding:5vh 6vw 9vh; flex-direction:column; justify-content:safe center; overflow:auto; }
+.slide.on { display:flex; }
+h1 { font-size:9vh; margin:0 0 2vh; color:var(--accent); }
+h2 { font-size:6vh; margin:0 0 4vh; }
+.sub { font-size:4.5vh; color:var(--muted); }
+.q .sub { font-size:3vh; }
+.goal { font-size:4vh; margin-top:5vh; max-width:70vw; }
+ul { font-size:4vh; line-height:1.45; margin:0 0 3vh; padding-left:1.2em; }
+.cards { display:grid; grid-template-columns:repeat(3,1fr); gap:2.5vh; }
+.card { background:var(--card); border:2px solid var(--line); border-radius:2vh; padding:2.5vh; text-align:center; cursor:pointer; min-height:23vh; }
+.mn { font-size:6vh; font-weight:700; }
+.say { font-size:2.8vh; color:var(--muted); font-style:italic; }
+.en { font-size:3.6vh; margin-top:1vh; }
+.eg { font-size:2.8vh; color:var(--muted); }
+.letters { grid-template-columns:repeat(4,1fr); gap:1.6vh; }
+.letters .card { padding:1.2vh 1vh; min-height:23.5vh; }
+.letters .mn { font-size:6.5vh; line-height:1.15; }
+.letters .en { font-size:2.7vh; margin-top:.5vh; }
+.letters .eg { font-size:2.2vh; }
+.hide .en, .hide.en, .hide .ans { visibility:hidden; }
+.ex { display:grid; grid-template-columns:auto 1fr; gap:1vh 4vw; font-size:4.6vh; align-items:baseline; }
+.ex .en { margin:0; color:var(--muted); cursor:pointer; }
+.line { font-size:4.8vh; margin-bottom:2.2vh; cursor:pointer; }
+.who { color:var(--accent); font-weight:700; margin-right:1.5vw; }
+.line .en { font-size:3.2vh; color:var(--muted); margin:0 0 0 4vw; }
+.q { font-size:5.5vh; margin-bottom:2.5vh; cursor:pointer; }
+.ans { color:var(--accent); font-weight:700; margin-left:3vw; }
+.blank { display:inline-block; min-width:1.6em; padding:0 .1em; text-align:center; border-bottom:.07em solid var(--ink); line-height:1.1; }
+.blank .ans { margin:0; }
+.grid { border-collapse:collapse; font-size:4.4vh; margin:0 0 3vh; }
+.grid th { text-align:left; color:var(--muted); font-size:3vh; font-weight:600; padding:0 4vw 1vh 0; }
+.grid td { padding:.6vh 4vw .6vh 0; border-top:2px solid var(--line); font-weight:700; }
+.grid td:first-child { font-weight:400; font-size:3.2vh; color:var(--muted); }
+.src { position:fixed; left:6vw; bottom:3vh; font-size:2.2vh; color:var(--muted); }
+.nav { position:fixed; right:4vw; bottom:3vh; font-size:2.4vh; color:var(--muted); }
+</style></head><body><section class="slide"><div><div class="sub">Lesson 1</div><h1>Цагаан толгой</h1><div class="sub">The alphabet</div><div class="goal">Recognise all 35 letters of the Mongolian Cyrillic alphabet. Learn the name of each letter and the sound it makes.</div></div></section><section class="slide"><div><h2>Letters 1 of 3</h2><div class="cards letters"><div class="card hide"><div class="mn">А а</div><div class="en">name: <b>а</b></div><div class="en">a as in father, but short</div><div class="en eg">ах (older brother)</div></div><div class="card hide"><div class="mn">Б б</div><div class="en">name: <b>бэ</b></div><div class="en">b as in bird</div><div class="en eg">барс (tiger)</div></div><div class="card hide"><div class="mn">В в</div><div class="en">name: <b>вэ</b></div><div class="en">v as in vase</div><div class="en eg">авах (to take)</div></div><div class="card hide"><div class="mn">Г г</div><div class="en">name: <b>гэ</b></div><div class="en">g as in get</div><div class="en eg">гал (fire)</div></div><div class="card hide"><div class="mn">Д д</div><div class="en">name: <b>дэ</b></div><div class="en">d as in day</div><div class="en eg">дээвэр (roof)</div></div><div class="card hide"><div class="mn">Е е</div><div class="en">name: <b>е</b></div><div class="en">ye as in yes</div><div class="en eg">ер (ninety)</div></div><div class="card hide"><div class="mn">Ё ё</div><div class="en">name: <b>ё</b></div><div class="en">yo as in yawn</div><div class="en eg">ёс (custom, rule)</div></div><div class="card hide"><div class="mn">Ж ж</div><div class="en">name: <b>жэ</b></div><div class="en">j as in joke</div><div class="en eg">жимс (fruit)</div></div><div class="card hide"><div class="mn">З з</div><div class="en">name: <b>зэ</b></div><div class="en">dz, like the ds in seeds</div><div class="en eg">зураг (picture)</div></div><div class="card hide"><div class="mn">И и</div><div class="en">name: <b>и</b></div><div class="en">ee as in feet, but short</div><div class="en eg">ишиг (baby goat)</div></div><div class="card hide"><div class="mn">Й й</div><div class="en">name: <b>хагас и</b></div><div class="en">&quot;half и&quot;: very short, joins the vowel before it</div><div class="en eg">сайн (good)</div></div><div class="card hide"><div class="mn">К к</div><div class="en">name: <b>ка</b></div><div class="en">k as in kilo</div><div class="en eg">кило (kilo)</div></div></div></div></section><section class="slide"><div><h2>Letters 2 of 3</h2><div class="cards letters"><div class="card hide"><div class="mn">Л л</div><div class="en">name: <b>эл</b></div><div class="en">l with the tongue on the teeth</div><div class="en eg">лам (lama, monk)</div></div><div class="card hide"><div class="mn">М м</div><div class="en">name: <b>эм</b></div><div class="en">m as in modern</div><div class="en eg">мод (tree)</div></div><div class="card hide"><div class="mn">Н н</div><div class="en">name: <b>эн</b></div><div class="en">n as in name; at the end of a word, ng as in sing</div><div class="en eg">ном (book)</div></div><div class="card hide"><div class="mn">О о</div><div class="en">name: <b>о</b></div><div class="en">o as in bought</div><div class="en eg">олон (many)</div></div><div class="card hide"><div class="mn">Ө ө</div><div class="en">name: <b>ө</b></div><div class="en">like the oo in good</div><div class="en eg">өдөр (day)</div></div><div class="card hide"><div class="mn">П п</div><div class="en">name: <b>пэ</b></div><div class="en">p as in park</div><div class="en eg">парк (park)</div></div><div class="card hide"><div class="mn">Р р</div><div class="en">name: <b>эр</b></div><div class="en">a rolled r</div><div class="en eg">радио (radio)</div></div><div class="card hide"><div class="mn">С с</div><div class="en">name: <b>эс</b></div><div class="en">s as in sing</div><div class="en eg">самар (nut)</div></div><div class="card hide"><div class="mn">Т т</div><div class="en">name: <b>тэ</b></div><div class="en">t as in tall</div><div class="en eg">талх (bread)</div></div><div class="card hide"><div class="mn">У у</div><div class="en">name: <b>у</b></div><div class="en">close to the o in bone</div><div class="en eg">ус (water)</div></div><div class="card hide"><div class="mn">Ү ү</div><div class="en">name: <b>ү</b></div><div class="en">oo as in stoop</div><div class="en eg">үс (hair)</div></div><div class="card hide"><div class="mn">Ф ф</div><div class="en">name: <b>фэ</b></div><div class="en">f as in fox</div><div class="en eg">фото (photo)</div></div></div></div></section><section class="slide"><div><h2>Letters 3 of 3</h2><div class="cards letters"><div class="card hide"><div class="mn">Х х</div><div class="en">name: <b>хэ</b></div><div class="en">kh, like the ch in Scottish &quot;loch&quot;</div><div class="en eg">хамар (nose)</div></div><div class="card hide"><div class="mn">Ц ц</div><div class="en">name: <b>цэ</b></div><div class="en">ts as in its</div><div class="en eg">цас (snow)</div></div><div class="card hide"><div class="mn">Ч ч</div><div class="en">name: <b>чэ</b></div><div class="en">ch as in cheese</div><div class="en eg">чих (ear)</div></div><div class="card hide"><div class="mn">Ш ш</div><div class="en">name: <b>иш</b></div><div class="en">sh as in short</div><div class="en eg">шөл (soup)</div></div><div class="card hide"><div class="mn">Щ щ</div><div class="en">name: <b>щч</b></div><div class="en">shch, as in &quot;English Channel&quot;</div><div class="en eg">борщ (borscht, a Russian soup)</div></div><div class="card hide"><div class="mn">Ъ ъ</div><div class="en">name: <b>хатуугийн тэмдэг</b></div><div class="en">hard sign: no sound of its own</div><div class="en eg">явъя (let&#x27;s go)</div></div><div class="card hide"><div class="mn">Ы ы</div><div class="en">name: <b>ы</b></div><div class="en">a long ee sound, only in endings</div><div class="en eg">таны (your, polite)</div></div><div class="card hide"><div class="mn">Ь ь</div><div class="en">name: <b>зөөлний тэмдэг</b></div><div class="en">soft sign: no sound of its own</div><div class="en eg">морь (horse)</div></div><div class="card hide"><div class="mn">Э э</div><div class="en">name: <b>э</b></div><div class="en">e as in get</div><div class="en eg">эмч (doctor)</div></div><div class="card hide"><div class="mn">Ю ю</div><div class="en">name: <b>ю</b></div><div class="en">yu as in you</div><div class="en eg">юм (thing)</div></div><div class="card hide"><div class="mn">Я я</div><div class="en">name: <b>я</b></div><div class="en">ya as in yacht</div><div class="en eg">яс (bone)</div></div></div></div></section><section class="slide"><div><h2>Your turn</h2><ul><li>Warm-up: greet each other. Сайн байна уу? (Hello: sain bain uu). Answer: Сайн. Сайн байна уу?</li><li>Take turns picking a letter card. Say its name and its sound, then click to check.</li><li>Go around the table through the alphabet in order. Each person says the next letter&#x27;s name.</li><li>One person says a sound. Everyone else points to the letter that makes it.</li><li>Click a card to hide it again, and see who still remembers its name.</li></ul></div></section><div class="nav"></div><script>
+const slides=[...document.querySelectorAll('.slide')]; let i=0;
+// shrink a slide's content until it fits the screen
+function fit(s){ const b=s.firstElementChild; let z=1; b.style.zoom=1;
+  while(s.scrollHeight>s.clientHeight+2 && z>0.5){ z-=0.04; b.style.zoom=z; } }
+addEventListener('resize',()=>fit(slides[i]));
+function show(n){ i=Math.max(0,Math.min(slides.length-1,n)); slides.forEach((s,k)=>s.classList.toggle('on',k===i));
+  fit(slides[i]);
+  document.querySelector('.nav').textContent=(i+1)+' / '+slides.length+'   ← →  move · click to reveal'; }
+document.addEventListener('keydown',ev=>{ if(['ArrowRight',' ','PageDown'].includes(ev.key)) show(i+1);
+  if(['ArrowLeft','PageUp'].includes(ev.key)) show(i-1); });
+document.addEventListener('click',ev=>{ const t=ev.target.closest('.hide, .shown');
+  if(t){ t.classList.toggle('hide'); t.classList.toggle('shown'); } });
+show(0);
+</script></body></html>
